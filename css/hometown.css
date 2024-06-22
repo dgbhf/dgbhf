@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/lightgreen.jpg");
+  }
+  .w {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .header {
+    height: 64px;
+    width: 100%;
+    background-color: lightseagreen;
+  }
+  .header ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header ul li{
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .header ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .green {
+    position: relative;
+  }
+.green img{
+	width: 100%;
+	height: 200px;
+}
+  .footer {
+    height: 64px;
+    line-height: 64px;
+    background-color: lightseagreen;
+    text-align: center;
+    color: #fff;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .title{
+    width: 200px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #18ACCA;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+    margin-bottom: 10px;
+  }
+  .about .btns {
+    margin: 0 auto;
+  }
+  .about .btns button{
+    cursor: pointer;
+    background-color: #18ACCA;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .container_pic {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .container_pic .role{
+    text-align: center;
+    display: none;
+  }
+  .container_pic .role:nth-child(1){
+    display: block;
+  }
+  .container_pic .role img{
+    width: 300px;
+    height: 250px;
+  }
+  .container_pic .role .roles{
+    width: 300px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .container_pic .role .message{
+    width: 300px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+  }
